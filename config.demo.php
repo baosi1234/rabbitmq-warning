@@ -35,7 +35,7 @@ return [
         'interval'         => 2, //尝试重连的时间间隔（单位：s）
         'mode'             => [ //预警模式
             'type'  => DINGDING_NOTICE,
-            'token' => '6575119855023e435a7ac0d6882253de72a9b5b9d3c392d4a21fd2fa27fc7fcd', //钉钉机器人token
+            'token' => '6575119855023e43werkiliooiertutua9b5b9d3c392d4a21fd2fa27fc7fcd', //钉钉机器人token
         ],
     ],
     //监控队列配置
@@ -48,7 +48,7 @@ return [
             'duringTime'       => 600, //在有效duringTime的时间内，检测到队列的数量连续warningTimes次达到warningMsgCount，则预警
             'mode'             => [ //预警模式
                 'type'  => DINGDING_NOTICE,
-                'token' => '6575119855023e435a7ac0d6882253de72a9b5b9d3c392d4a21fd2fa27fc7fcd',
+                'token' => '6575119855023e43werkiliooiertutua9b5b9d3c392d4a21fd2fa27fc7fcd',
             ],
         ],
 		'test2' => [
@@ -58,7 +58,7 @@ return [
 			'duringTime'       => 600, //在有效duringTime的时间内，检测到队列的数量连续warningTimes次达到warningMsgCount，则预警
 			'mode'             => [ //预警模式
 				'type'  => DINGDING_NOTICE,
-				'token' => '6575119855023e435a7ac0d6882253de72a9b5b9d3c392d4a21fd2fa27fc7fcd',
+				'token' => '6575119855023e43werkiliooiertutua9b5b9d3c392d4a21fd2fa27fc7fcd',
 			],
 		],
     ],
