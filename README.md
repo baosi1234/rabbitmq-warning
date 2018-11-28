@@ -22,7 +22,14 @@ rabbitmq-warning使用PHP实现，配合定时计划任务，对Rabbitmq服务�
 1. php >= 7.0
 2. swoole扩展（版本无要求）
 3. redis扩展 >= 2.6
-##### 进入目录：composer install
+
+##### 独立安装：
+- git clone https://github.com/pupilcp/rabbitmq-warning.git
+- 进入目录：composer install
+
+##### 接入项目：
+- composer require pupilcp/rabbitmq-warning
+
 
 ### 使用
 复制根目录下的config.demo.php，并重命名为：config.php，修改配置文件里的参数。
